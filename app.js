@@ -6,7 +6,7 @@ const express = require('express'),
     sanitizer = require('sanitizer'),
     app = express(),
     port = 8000
-    // new change
+
 app.use(bodyParser.urlencoded({
     extended: false
 }));
